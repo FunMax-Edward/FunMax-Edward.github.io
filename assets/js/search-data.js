@@ -16,18 +16,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-测试",
-        
-          title: "测试",
-        
-        description: "测试",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/";
-          
-        },
-      },{
+        },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
