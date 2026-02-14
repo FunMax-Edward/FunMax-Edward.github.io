@@ -5,12 +5,23 @@
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background: linear-gradient(180deg, rgba(31, 111, 139, 0.08), rgba(251, 249, 244, 0));
+  border-radius: 16px;
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3.2rem;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.4rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    color: var(--global-text-color-light);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
   }
 }
 
