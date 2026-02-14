@@ -259,32 +259,3 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
-.profile {
-  position: relative;
-
-  figure {
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
-  }
-}
-
-.post-list li {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
-    border-radius: 12px;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-}
-
-.post-list li + li {
-  margin-top: 0.5rem;
-}
-
-.post-list li:hover a {
-  text-decoration: none;
-}

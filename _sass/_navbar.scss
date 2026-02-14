@@ -8,8 +8,7 @@
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.96;
-  backdrop-filter: blur(8px);
+  opacity: 0.95;
 }
 
 .navbar .dropdown-menu,
@@ -72,15 +71,6 @@
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
-
-    &::after {
-      content: "";
-      display: block;
-      height: 2px;
-      margin-top: 6px;
-      background: var(--global-theme-color);
-      border-radius: 999px;
-    }
 
     &:hover {
       color: var(--global-hover-color);
