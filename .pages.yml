@@ -1,0 +1,64 @@
+media:
+  input: assets/img
+  output: /assets/img
+
+content:
+  - name: posts
+    label: 博客文章
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    fields:
+      - name: layout
+        label: Layout
+        type: string
+        hidden: true
+        default: post
+      - name: title
+        label: 标题
+        type: string
+        required: true
+      - name: date
+        label: 日期
+        type: date
+        required: true
+      - name: description
+        label: 描述
+        type: text
+      - name: categories
+        label: 分类
+        type: string
+        list: true
+      - name: tags
+        label: 标签
+        type: string
+        list: true
+      - name: body
+        label: 正文
+        type: rich-text
+    view:
+      fields: [title, date]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+
+  - name: about
+    label: 关于我
+    type: file
+    path: _pages/about.md
+    fields:
+      - name: title
+        label: 标题
+        type: string
+      - name: subtitle
+        label: 副标题
+        type: string
+      - name: body
+        label: 正文
+        type: rich-text
+
+settings:
+  content:
+    merge: true
