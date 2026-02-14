@@ -15,7 +15,7 @@ footer_text: >
   托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>。
 keywords: 嵌入式, 算法, 电子信息 # add your own keywords or leave empty
 lang: zh-CN # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://FunMax-Edward.github.io
 baseurl:
@@ -67,9 +67,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
