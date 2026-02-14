@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://FunMax-Edward.github.io/sitemap.xml
